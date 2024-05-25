@@ -623,7 +623,7 @@
     --// WaterMark \\--
     if uwuFAG.Enabled then
     
-    library.rank = "developer"
+    library.rank = "beta user"
     local Wm = library:Watermark("muriware | v" .. library.version ..  " | " .. library:GetUsername() .. " | rank: " .. library.rank)
     if getgenv().Loot.WaterMark.ShowFPS == true then
         local FpsWm = Wm:AddWatermark("fps: " .. library.fps)
